@@ -7,7 +7,7 @@ class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         cur = head
         double_cur = head
-        while double_cur is not None and double_cur.next is not None:
+        while double_cur and double_cur.next :
             cur = cur.next
             double_cur = double_cur.next.next
         
