@@ -23,7 +23,7 @@ class Solution:
                     break
         if neg:
             new_s = "-"+new_s
-        print(new_s)
+        # print(new_s)
         try:
             i = int(float(new_s))
             if i < -2147483648:
