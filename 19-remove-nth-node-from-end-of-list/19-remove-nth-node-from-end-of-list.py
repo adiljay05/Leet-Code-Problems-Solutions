@@ -13,9 +13,6 @@ class Solution:
         if not fast:
             return head.next
         while fast.next:
-            # print(slow.val)
-            # print(fast.val)
-            # print()
             fast = fast.next
             slow = slow.next
         
